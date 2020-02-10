@@ -1,5 +1,7 @@
-export default function sayHello(name) {
+function sayHello(name) {
   return "Hello, " + name;
 }
 
 sayHello("Amplitude");
+
+module.exports = sayHello;
